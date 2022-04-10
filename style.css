@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie-container {
+    background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    display: flex;  /* deixa os conteudos da div lado a lado*/
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: "poppins", sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cookie {
+    transform: scale(0.7);
+    overflow: visible;
+}
+
+.text {
+    width: 68%;
+    
+}
+
+.cookie-title{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: right;
+    
+}
+
+.cookie-subtitle {
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding: 0.7rem 0rem;
+}
+
+button {
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: #4f2626;
+    font-family: "poppins", sans-serif;
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    transition: ease-out 0.3s;
+    outline: none;
+    
+}
+
+button:hover{
+    box-shadow:  inset 300px 0 0 300px #FCC77D;
+    cursor: pointer;
+}
+
